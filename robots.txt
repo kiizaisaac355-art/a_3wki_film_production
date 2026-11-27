@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kiizaisaac355-art.github.io/a_3wki_film_production/sitemap.xml
