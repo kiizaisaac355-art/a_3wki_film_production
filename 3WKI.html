@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A 3WKI FILM PRODUCTION | President Kiiza Isaac</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#fffaf3}
+header{background:linear-gradient(90deg,#0f766e,#f59e0b,#d946ef,#0f766e);color:white;padding:18px 12px;text-align:center;position:sticky;top:0;z-index:99}
+header h1{font-size:28px}
+header h1 span{background:white;color:#0f766e;padding:2px 10px;border-radius:10px}
+header p{font-size:13px;margin-top:5px}
+nav{background:white;padding:12px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;position:sticky;top:92px;z-index:98;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+nav button{border:none;padding:12px 22px;border-radius:25px;cursor:pointer;font-weight:bold;background:#fef3c7;color:#0f766e;font-size:14px}
+nav button.active,nav button:hover{background:linear-gradient(90deg,#0f766e,#d946ef);color:white}
+.page{display:none;max-width:1150px;margin:auto;padding:15px}
+.page.active{display:block}
+.hero{border-radius:20px;overflow:hidden;position:relative;height:340px;background:url('https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200') center/cover}
+.hero div{position:absolute;bottom:0;width:100%;background:linear-gradient(transparent,rgba(15,118,110,0.95));color:white;padding:25px}
+.hero h2{font-size:28px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}
+.stat{flex:1;min-width:140px;background:white;border-radius:15px;padding:15px;text-align:center;box-shadow:0 3px 12px rgba(0,0,0,0.08);border-top:4px solid #f59e0b}
+.stat b{font-size:22px;color:#0f766e}
+.gallery{display:flex;flex-wrap:wrap;gap:15px;justify-content:center;margin:15px 0}
+.gallery img{width:340px;height:220px;object-fit:cover;border-radius:18px;box-shadow:0 5px 18px rgba(0,0,0,0.1)}
+.gallery img.big{width:100%;max-width:1100px;height:320px}
+.about-card{background:white;border-radius:20px;padding:20px;margin:15px 0;display:flex;gap:20px;flex-wrap:wrap;align-items:center;box-shadow:0 5px 15px rgba(0,0,0,0.08)}
+.about-card img{width:320px;max-width:100%;border-radius:15px;height:220px;object-fit:cover}
+.about-card div{flex:1;min-width:260px}
+.about-card h3{color:#d946ef;margin-bottom:8px}
+.about-card p{line-height:1.7;color:#555}
+.about-card ul{line-height:2;color:#333;font-weight:600;margin-left:20px}
+.contact-box{background:linear-gradient(135deg,#0f766e,#f59e0b,#d946ef);color:white;border-radius:20px;padding:25px;text-align:center;line-height:1.8}
+footer{background:linear-gradient(90deg,#0f766e,#f59e0b,#d946ef);color:white;padding:30px 15px;text-align:center;margin-top:30px}
+.badge{background:#fef08a;color:#0f766e;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:bold}
+.section-title{text-align:center;color:#0f766e;margin:25px 0 10px}
+.sub{text-align:center;color:#777;margin-bottom:15px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>A 3WKI <span>FILM PRODUCTION</span></h1>
+<p>🎬 A 3 WISDOM KNOWLEDGE INSIGHT FILM • PRESIDENT KIIZA ISAAC • UGANDA 🇺🇬</p>
+<p>📞 0753346889 • 12 Movies Written! • Join The Team!</p>
+</header>
+
+<nav>
+<button class="active" onclick="showPage('home',this)">🏠 Dashboard</button>
+<button onclick="showPage('services',this)">🎥 Services</button>
+<button onclick="showPage('about',this)">💜 About Us</button>
+<button onclick="showPage('contact',this)">📞 Contact</button>
+</nav>
+
+<!-- DASHBOARD - ONLY IMAGES -->
+<div id="home" class="page active">
+<div class="hero"><div><h2>A 3WKI FILM - Let Your Hope Keep You Joyful! ✨</h2><p>Films • Music Videos • Events • Photography • 12 Movies Written by Kiiza Isaac</p><p style="margin-top:10px"><span class="badge">🔥 NOW: Join A 3WKI FILM Team - Your Presence Makes Us Shine Like Stars!</span></p></div></div>
+<div class="stats"><div class="stat"><b>12</b><br>Movies Written</div><div class="stat"><b>8</b><br>Finished Movies</div><div class="stat"><b>24 Hours</b><br>We Are Open</div><div class="stat"><b>FREE</b><br>Join The Team</div></div>
+
+<h2 class="section-title">🎬 Our Films Gallery</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800">
+<img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800">
+<img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800">
+<img src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=800">
+<img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=800">
+<img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800">
+<img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44?w=800">
+<img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800">
+<img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=800">
+<img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800">
+<img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800">
+<img src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=800">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800">
+<img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800">
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800">
+<img src="https://images.unsplash.com/photo-1503096225117-2e1dcf2b21e4?w=800">
+</div>
+</div>
+
+<!-- SERVICES - NOW HAS MOVIES + T-SHIRT + SERVICES -->
+<div id="services" class="page">
+<h2 class="section-title">🎥 Our Services</h2>
+<p class="sub">Film Production • Events • Photography • Music Videos</p>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44?w=800"><div><h3>Film Production - Script To Screen</h3><p>Full film production: Idea, Script, Shooting, Editing, Sound, Visual Effects, Final Mix, Release. In partnership with NAT MEDIA TV.</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1503096225117-2e1dcf2b21e4?w=800"><div><h3>Arts & Entertainment</h3><p>Creative storytelling, music videos, theatre and entertainment content for all platforms.</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800"><div><h3>Event Planner & Coverage</h3><p>End-to-end event planning, coordination, and live event coverage for festivals, corporate & cultural events.</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800"><div><h3>Commercials & Business Videos</h3><p>Commercial ads, corporate brand videos, promotional content and business videography solutions.</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"><div><h3>Photography & Music Video</h3><p>Professional photography, music video shooting, wedding coverage, birthday shoots.</p></div></div>
+
+<h2 class="section-title">🎬 Our Movies - 12 Movies Written by Kiiza Isaac</h2>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800"><div><h3>📝 Written Movies List</h3><p><b>FINISHED - 8:</b><br>1. FIRST MISSION<br>2. AWAKEN OF ARJUN THE TIGER SOLDIER<br>3. JOSHUA THE FREEDOM FIGHTER<br>4. ISHMAEL THE SKILFUL HUNTER<br>5. DREAMS COME TRUE<br>6. SECRET MISSION<br>7. LOVE IS THE MOST BEAUTIFUL THING IN LIFE<br>8. HANDSOME SIBLINGS<br><br><b>HALFWAY - 4:</b><br>9. PROTECT AND SERVE<br>10. ALIEN SUCCESSOR<br>11. THE ROOKIES<br>12. LET'S GO TO THE FUTURE TOGETHER</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1605806616949-1e87b487fc2f?w=800"><div><h3>1. PROTECT AND SERVE / NIGHT RUN - HALFWAY</h3><p>Elijah, a police officer and genius programmer, gets a call from a young boy who designed software to improve security of the country. Bad people want it. TRUST IS THE ONLY ESCAPE.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800"><div><h3>2. HANDSOME SIBLINGS - FINISHED</h3><p>Ryan and Kylian, twin brothers, grew up with their uncle after their parents were killed by Charles. BROTHERS IN BLUE. PROTECTORS FOREVER.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=800"><div><h3>3. JOSHUA THE FREEDOM FIGHTER - FINISHED</h3><p>Joshua, Joab and Sharom fought to reveal truth on a case of 15 years back that took General John's family. Mzee James saved them. BROTHERHOOD. HONOR. DESTINY.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800"><div><h3>4. ALIEN SUCCESSOR - HALFWAY</h3><p>Brandon grew up in a remote forest. He found a monster, helped it, and it entered his body and they became one person.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1478860409698-8707f313ee8b?w=800"><div><h3>5. SECRET MISSION - FINISHED</h3><p>Alvin, a soldier on secret mission, meets Angel, a news reporter, at airport with an accidental kiss. Later they find they are neighbours and have same mission.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800"><div><h3>6. LOVE IS THE MOST BEAUTIFUL THING IN LIFE - FINISHED</h3><p>Gracious and Baolar - grandparents decided they should marry. They met at game competition. God's timing is best. TOGETHER IS THE BEST PLACE TO BE.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=800"><div><h3>7. ISHMAEL THE SKILFUL HUNTER - FINISHED</h3><p>Ishmael, son of Hagar, grew up with wild animals, became skilful hunter. He saved his girlfriend from looters with battalion of wild animals. NATURE FEARS HIM.</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800"><div><h3>8. DREAMS COME TRUE - FINISHED</h3><p>Agaba and Amon dreamed to become superstars like Mr. John and Sheila. By God's grace he fulfilled dream. SOME MOMENTS ARE WORTH IT.</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800"><div><h3>🎬 How A Film Is Made - 8 Steps</h3><p>1. IDEA & STORY → 2. PLANNING → 3. SHOOTING → 4. EDITING → 5. SOUND & MUSIC → 6. VISUAL EFFECTS → 7. FINAL MIX → 8. RELEASE<br><i>Dream It. Create It. Watch It. Love It.</i></p></div></div>
+
+<h2 class="section-title">👕 Official A 3WKI FILM T-Shirt</h2>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800"><div><h3>KIIZA ISAAC - PRESIDENT T-Shirt</h3><p>White official team T-shirt with Uganda colours - Black, Yellow, Red stripe. With A 3WKI FILM logo and KIIZA ISAAC PRESIDENT print. Wear it with pride!</p></div></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800"><div><h3>A 3WKI FILM Cap</h3><p>Official A 3WKI FILM cap. Show you are part of the team.</p></div></div>
+</div>
+
+<!-- ABOUT US - NOW HAS PRESIDENT + STORY + INVITATION + PRAYER -->
+<div id="about" class="page">
+<h2 class="section-title">💜 About A 3WKI FILM PRODUCTION</h2>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800"><div><h3>Our Story</h3><p>A 3WKI FILM PRODUCTION is a passionate Ugandan film company dedicated to telling authentic African stories that inspire, entertain and uplift. A 3 WISDOM KNOWLEDGE INSIGHT FILM.</p><p>We started with one idea - to shine like stars. Today we have 12 movies written, 8 finished, and a growing team of talented youth.</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"><div><h3>👑 Our President - KIIZA ISAAC</h3><p>Leading A 3WKI FILM with Wisdom, Knowledge and Insight. Writer of 12 Movies. Building a vibrant team that shines like stars lighting up the sky.</p><p><b>📞 Tel:</b> 0777 237886<br><b>💬 WhatsApp:</b> 0753346889<br><b>📧 Email:</b> kiizaisaac355@gmail.com</p><p><b>“Let your hope keep you joyful, be patient in your troubles and pray at all times.”</b></p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800"><div><h3>📩 Our Invitation To You</h3><p>A 3WKI FILM with great pleasure invites you to be a member of the team with a welcoming and thankful heart. Your presence makes the team vibrant and shining like stars lighting up the sky.</p><p><b>Our Promise:</b><br>✅ Original African Stories<br>✅ Talent Development<br>✅ Community & Faith<br>✅ Open 24 Hours<br>✅ Everyone Is Welcome</p></div></div>
+
+<div class="about-card"><img src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=800"><div><h3>🙏 Morning Prayer</h3><p>Dear Lord, thank you for waking me up this morning and giving me the breath of life. I know that I have reached on this day not by luck, but by your grace. Thank you for all the good things you have done for me. Today, I commit myself to you; please guide my every step, in this world that often seems too hard for me, help me to live with a positive mindset. Let me hear your voice, follow your will, and may all I do bring glory to you. May your hand lead me through this day. I pray trusting and believing in the name of your son Jesus Christ our Lord. Amen.</p></div></div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="page">
+<div class="contact-box"><h2>📞 Contact A 3WKI FILM PRODUCTION</h2><p style="margin:10px">We reply in 2 minutes!</p><p><b>📍 Location:</b> Uganda<br><b>📞 Phone:</b> 0777 237886<br><b>💬 WhatsApp:</b> 0753346889<br><b>📧 Email:</b> kiizaisaac355@gmail.com<br><b>🕐 Hours:</b> WE ARE OPEN 24 HOURS</p></div>
+<div class="about-card"><img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=800"><div><h3>Join The Team</h3><p>If you have talent - Acting, Singing, Dancing, Camera, Editing - we welcome you. We are a family. Your presence makes the team vibrant and shining like stars.</p><p><b>Call / WhatsApp: 0753346889</b></p></div></div>
+</div>
+
+<footer>
+<h2>A 3WKI FILM PRODUCTION 🎬🇺🇬</h2>
+<p>A 3 WISDOM KNOWLEDGE INSIGHT FILM | President Kiiza Isaac</p>
+<p style="margin:10px">Films • Music Videos • Events • Photography • T-Shirts</p>
+<p>📞 0753346889 • 📧 kiizaisaac355@gmail.com</p>
+<p style="margin-top:10px;font-size:13px;opacity:0.8">© 2026 A 3WKI FILM PRODUCTION - Made with Love in Uganda</p>
+</footer>
+
+<script>
+function showPage(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');window.scrollTo(0,0);}
+</script>
+</body>
+</html>
